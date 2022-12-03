@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>BS Components Assignment - Facebook Homepage</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Bootstrap CSS-->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+		
+		<style type="text/css">
+			/*div{
+				border:1px solid blue;
+				min-height:50px;
+			}*/
+			#forgot{
+				text-decoration:none;
+			}
+			#create{
+				background-color:#41b727;
+				color:#fff;
+			}
+			#form{
+				background-color:white;
+				border-radius:3%;
+				box-shadow:3px 3px 5px #939393;
+			}
+			#parent1{
+				background-color:#f1f2f6;
+			}
+			.customtext{
+				color:#7e7e7d;
+			}
+			@media all and (max-width:576px){
+				h1{text-align:center}
+			}
+			#temp{
+				background-color:#f1f2f6;
+				height:100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row d-none d-md-block" id="temp"></div>
+			<div class="row justify-content-around" id="parent1">
+				<div class="col-md-5 pt-5">
+					<div id="textbox">
+					<h1 style="color:#1976f5; font-weight:bolder; font-size:38px;">facebook</h1>
+					<p style="color:#605867">Facebook helps you connect and share with the people in your life</p>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<form id="form">
+						<div class="mt-3 p-3">
+							<input type="text" name="emailaddressorphonenumber" placeholder="Email address or phone number" class="form-control 
+							form-control-lg">
+						</div>
+						<div class="p-3">
+							<input type="password" name="password" placeholder="Password" class="form-control form-control-lg">
+						</div>
+						<div class="p-3">
+							<button class="btn btn-primary col-12">Log In</button>
+						</div>
+						<div class="text-center">
+							<a href="" id="forgot">Forgotten password?</a>
+						</div>
+						<hr>
+						<div class="text-center mb-3 pb-3" >
+							<button class="btn"  id="create">Create New Account</button>
+						</div>
+					</form>
+					
+					<p class="text-center"><span><b>Create a Page</b></span> for a celebrity, brand or business.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-11 offset-1 customtext d-none d-md-block">
+					<p>This is random text about languages. This is random text about languages. <button class="badge bg-light text-dark border-secondary">+</button></p>
+					<hr class="mx-auto" width="100%">
+				</div>
+				<div class="col-11 offset-1 customtext">
+					<p>This is random text about facebook products. This is random text about facebook products. This is random text about facebook products. 
+						This is random text about facebook products. This is random text about facebook products. This is random text about facebook products. 
+					</p>
+				<p>Meta &copy 2022</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,385 @@
+/* External CSS for Mint Box miniproject*/
+
+/*custom font*/
+@font-face{
+	font-family:'firstfont';
+	src:url('../fonts/Roboto/Roboto-Regular.ttf')format(truetype);	
+}
+@font-face{
+	font-family:'secondfont';
+	src:url('../fonts/Nunito_Sans/NunitoSans-Regular.ttf')format(truetype);
+}
+body{
+	font-family: secondfont, verdana, arial, sans-serif;
+}
+div,nav,article,section,footer,header{
+	/*min-height:100px;*/
+	border:0px solid #000;
+}
+nav,section,article,#banner,header{
+	display:flex;
+	justify-content:space-around;
+}
+nav{
+	background-color:white;
+	position:sticky;
+	top:0px;
+	
+}
+#logo{
+	background-image:url('../images/mintboxlogo.gif');
+	background-size:cover;
+	background-position:center;
+	width:10%;
+	margin-left:20px;
+}
+#menu{
+	width:50%;
+	height:70px;
+}
+#buttons{
+	width:25%;
+}
+.welcome_img{
+	width:40%;
+	background-image:url('../images/piggybank.jpg');
+	background-size:cover;
+	background-position:center;
+	min-height:250px;
+}
+.text1{
+	width:40%;
+	color:#000;
+	background-color:rgb(255,255,255);
+	box-shadow:3px 2px 1px #f1a208;
+}
+#banner{
+	width:70%;
+	margin:auto;
+}
+article,section,footer{
+	flex-wrap:wrap;
+}
+.heading{
+	width:100%;
+	text-align:center;
+}
+.prod_box{
+	width:20%;
+	background-color:white;
+	text-align:center;
+	box-shadow:3px 2px 1px #776D5A;
+}
+.prod_box p a{
+	text-decoration:none;
+	background-color:#84DCC6;
+	color:#0B151D;
+	border:0px solid #0B151D;
+	padding:10px;
+}
+.prod_box p a:hover{
+	box-shadow:3px 2px 1px #F1A208;
+	padding:8px;
+}
+#content1{
+	height:320px;
+	width:98%;
+	margin:auto;
+}
+.travel_img{
+	width:40%
+}
+.story_box{
+	width:30%;
+	background-color:#C4D6E9;
+	box-shadow:3px 2px 1px #FFD23F;
+	color:#0B151D;
+}
+.social_links{
+	width:100%;
+	background-color:#84dcc6;
+	text-align:center;
+}
+.social_links span{
+	border:0px solid #047eb0;
+	background-color:#F0EDEE;
+
+}
+.social_links span a{
+	text-decoration:none;
+	color:#3e151d;
+	box-shadow:2px 1px 1px #047eb0;
+}
+.social_links span a:hover{
+	box-shadow:2px 1px 2px #f1a208;
+}
+.footbox{
+	width:22%;
+}
+ul li{
+	display:inline;
+}
+#menu ul li{
+	padding:20px 20px;
+	border:0px solid blue;
+	
+}
+#menu ul li a{
+	text-decoration:none;
+	color:#64625f;
+}
+#menu ul li a:hover{
+	color:#047eb0;
+	box-shadow:1px 2px 2px #f1a208;
+}
+.btn{
+	padding:10px 30px;
+	margin:10px 20px;
+	border-radius:7%;
+	border:0px solid blue;
+	box-shadow:2px 1px 1px #047eb0;
+}
+.btn a{
+	text-decoration:none;
+	color:white;
+}
+.btn:hover{
+	box-shadow:1px 2px 2px #f1a208;
+}
+.signup{
+	background-color:#047eb0;
+}
+#login{
+	color:#047eb0;
+}
+#account{
+	background-color:#047eb0;
+	padding:8px;
+	border-radius:5%;
+	margin-left:70px;
+}
+#account:hover{
+	box-shadow:1px 2px 2px #f1a208;
+}
+#account a{
+	text-decoration:none;
+	color:white;
+}
+.prod_links li,.company li,.contact li{
+	display:block;
+	padding:0px;
+}
+.company li a:hover{
+	color:#047eb0;
+
+}
+.prod_links li a:hover{
+	color:#047eb0;
+	
+}
+.textposition{
+	position:relative;
+	left:40px;
+	color:#070203;
+}
+header,footer{
+	background-color:#776d5a;
+	color:#fff;
+	position:relative;
+	height:50px;
+}
+#prefooter{
+	background-color:#f0edee;
+	margin:0px;
+}
+.head li{
+	display:inline;
+	padding:0px 30px;
+}
+footer{
+	text-align:center;
+	line-height:50px;
+}
+.box{
+	border:0px solid red;
+	width:20%;
+	position:absolute;
+	right:0px;
+	top:10px;
+}
+.box a{
+	padding:0px 10px;	
+}
+
+#stories{
+	width:80%;
+	margin:auto;
+}
+.app_button{
+	width:40%;
+	margin-top:30px;
+}
+.dwn{
+	border:0px solid blue;
+	border-radius:5%;
+	background-color:#f0edee;
+	padding:5px;	
+}
+.dwn:hover{
+	box-shadow:2px 1px 1px #047eb0;
+}
+.dwn a,.prod_links li a, .company li a{
+	text-decoration:none;
+	color:#64625f;
+}
+#download_app{
+	margin:auto;
+	width:80%;
+}
+.travel_img{
+	margin-top:30px;
+}
+/*about.html styles*/
+.about{
+	border:0px solid red;
+	display:flex;
+	width:80%;
+	margin:auto;
+	height:360px;
+	position:relative;
+}
+.abox{
+	width:30%;
+	border:0px solid red;
+	text-align:center;
+}
+#mission{
+	background-color:rgba(241,162,8,0.8);
+	width:50%;
+	position:absolute;
+	left:0px;
+	margin-top:20px;
+	z-index:-5;
+}
+#vision{
+	background-color:rgba(240,237,248,1);
+	position:absolute;
+	top:130px;
+	left:250px;
+	width:50%;
+}
+#values{
+	background-color:rgba(4,126,176,0.8);
+	position:absolute;
+	top:235px;
+	right:0px;
+	width:50%;
+	z-index:-10;
+	color:white;
+}
+#team{
+	width:100%;
+	text-align:center;
+}
+.profile{
+	width:20%;
+	text-align:center;
+}
+.photo{
+	margin:auto;
+}
+.photo img{
+	height:100px;
+	width:100px;
+	border-radius:50%;
+}
+.name{
+	width:100%;
+}
+@media all and (max-width:768px){
+	header{
+		flex-direction:column;
+		width:96%;
+		font-size:10px;
+		height:80px;
+		position:relative;
+	}
+	.box{
+		height:5px;
+		width:100%;
+		position:absolute;
+		top:0px;
+	}
+	nav{
+		font-size:16px;
+		height:130px;
+		width:90%;
+		position:static;
+	}
+	#banner{
+		flex-direction:column;
+		width:100%;
+	}
+	.welcome_img{
+		height:120px;
+		width:100%;
+	}
+	.text1{
+		height:200px;
+		width:100%;
+		box-shadow:none;
+	}
+	#content1{
+		flex-direction:row;
+		width:100%;
+	}
+	.prod_box{
+		width:100%;
+		flex-wrap:wrap;
+		flex-direction:row;
+		height:250px;
+	}
+	#download_app{
+		display:block;
+		flex-direction:row;
+		width:100%;
+	}
+	.app_button{
+		display:block;
+		width:100%;
+		flex-direction:row;
+		height:300px;
+		position:relative;
+		top:800px;
+	}
+	.travel_img{
+		display:block;
+		width:100%;
+		flex-direction:row;
+		height:300px;
+		position:relative;
+		top:700px;
+	}
+	.social_links{
+		width:100%;
+		flex-direction:row;
+		height:100px;
+		position:relative;
+		top:700px;
+	}
+	.footbox{
+		width:100%;
+		flex-wrap:wrap;
+		flex-direction:row;
+		height:150px;
+		position:relative;
+		top:700px;
+	}
+	footer{
+		width:100%;
+		flex-direction:row;
+		height:50px;
+		position:relative;
+		top:700px;
+	}
+}

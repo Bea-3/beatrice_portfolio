@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Mint Box miniproject </title>
+		<meta charset="UTF-8">
+		<meta name="description" content=" Mint Box is a leading financial institution in Lagos that helps people manage and grow their wealth.>
+		<meta name="keywords" content="Mint Box, Save, Invest, Financial Education, financial institution in Lagos, Top Savings Apps, Top investment platform in lagos">
+		<meta name="author" content="Beatrice Pepple">
+		<link href="css/mintbox.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+		*{
+			box-sixing:border-box;
+		}
+				.signup_form{
+					background-color:rgba(4,126,176,1);
+					width:40%;
+					position:absolute;
+					right:150px;
+					display:flex;
+					flex-wrap:wrap;
+					height:600px;
+					border-radius:10px;
+				}
+				.signup_wrapper{
+					height:630px;
+					background:url('images/bluecube.jpg') no-repeat fixed left center;
+					background-position:cover;
+					background-size:70%;
+					position:relative;
+				}
+				#formlogo{
+					width:100%;
+					text-align:center;
+					margin-top:10px;
+					height:70px;
+				}
+				#foot{
+					width:100%;
+					text-align:center;
+					position:absolute;
+					bottom:0px;
+				}
+				.formedit{
+					border:0px solid blue;
+					position:relative;
+					bottom:20px;
+					background-color:white;
+					padding:0px 25px;
+					border-radius:10px;
+				}
+				.field{
+					padding:5px 10px;
+					width:92%;
+					background-color:#eee;
+				}
+				[value ="Create Account"]{
+					margin-left:70px;
+					padding:8px;
+					border-radius:5%;
+					background-color:#047eb0;
+					color:white;
+				}
+				[value ="Create Account"]:hover{
+					color:#000;
+					box-shadow:1px 2px 2px #f1a208;
+				}
+				
+				h2,p,label{
+					color:#64625f;
+				}
+				#foot{
+					color:white;
+					font-size:13px;
+				}
+				#foot a{
+					text-decoration:none;
+					color:#f1a208;
+				}
+				label{
+					font-size:12px;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="signup_wrapper">
+			
+			<section class="signup_form">
+			
+				<div id="formlogo" >
+				<img src="images/mintboxlogo.gif" width="70px">
+				</div>
+				
+				<form class="formedit" action="" method="post" >
+						<h2 style="font-size:20px; margin:5px;">Create a Free Account</h2>
+						<p style="font-size:14px;">Take your first step towards financial freedom</p>
+					<div>
+						<label for="firstname">First Name</label><br>
+						<input class="field" type="text" name="firstname" id="firstname">
+					</div>
+			
+					<div>
+						<label for="surname">Surname</label><br>
+						<input class="field" type="text" name="surname" id="surname">
+					</div>
+					
+					<div>
+						<label for="emailaddress">Email Address</label><br>
+						<input class="field" type="email" name="emailaddress" id="emailaddress"></div>
+			
+					<div>
+						<label>Phone Number</label><br>
+						<input class="field" type="text" name="phonenunmber" id="phonenumber"></div>
+					
+					<div>
+						<label>Password</label><br>
+						<input class="field" type="password" name="password" id="password"></div>
+						
+					<div>
+						<label>Confirm Password</label><br>
+						<input class="field" type="password" name="password" id="password"></div>
+						
+					<div >
+						<label>Location</label>
+							<select class="field" name="location" id="location">
+							<option value="">Choose </option>
+							<option value="Abuja">Abuja</option>
+							<option value="Bayelsa">Bayelsa</option>
+							<option value="Cross River">Cross River</option>
+							<option value="Delta">Delta</option>
+							<option value="Enugu">Enugu</option>
+							<option value="Lagos">Lagos</option>
+							<option value="Kano">Kano</option>
+							<option value="Rivers">Rivers</option>
+							</select>
+					</div>
+						
+					<div><input type="submit" name="submit" value="Create Account"></div>
+				</form>
+				
+				<div id="foot">
+				Already have an account? <a href="login.html" target="_blank">Log in</a>
+			</div>
+			</section>	
+			
+			
+		</div>	
+	</body>
+</html>

@@ -1,0 +1,149 @@
+/* My External CSS for Match Fix*/ 
+*{
+	box-sizing:border-box;
+}
+body{
+	border:0px dotted #000;
+	font-family: vernada, calibri, arial, sans-serif;
+}
+#wrapper{
+	height:650px;
+	background-image:
+	linear-gradient(to top, rgba(255,255,0,0.52), rgba(255,0,0,0.73)),url('../images/banner.jpg');
+	background-size:cover;
+}
+
+
+/*
+.overlay{
+	height:650px;
+	background-color:rgba(0,0,0,0.4);
+}*/
+.parent1{
+	border:0px dashed #000;
+	display:flex;
+	justify-content:space-between;
+	width:70%;
+	margin:auto;
+	margin-top:20px;
+}
+
+[src]{
+	width:15px;
+	display:inline;
+}
+
+#navigation{
+	border:0px solid #000;
+	margin:0px 40px;
+}
+
+#navigation li{
+	display:inline;
+}
+
+#navigation li a{
+	text-decoration:none;
+	padding:0px 20px;
+
+}
+
+.parent2{
+	border:0px dashed #000;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	width:70%;
+	margin:auto;
+	margin-top:40px;
+}
+
+#readmore{
+	border:1px solid #fdfffe;;
+	display:inline;
+	padding:5px;
+	border-radius:3px;
+	
+}
+#readmore a{
+	text-decoration:none;
+	
+}
+
+.testform{
+	border:0px solid #000;
+	width:350px;
+	min-height:100px;
+	padding:20px;
+	margin-top:100px;
+	background-color:#fdfffe;
+	
+}
+
+.text{
+	border:0px solid #000;
+	width:500px;
+	min-height:100px;
+	padding:40px;
+	margin-top:100px;
+}
+
+
+.terms{
+	text-decoration:none;
+	color:#fd4f82;
+}
+
+[value="Get Started"]{
+	text-align:center;
+	border:0px solid #000;
+	width:95%;
+	height:40px;
+	background-color:#fd4f82;
+	color:#fdfffe;
+}
+
+h1{
+	font-size:40px;
+}
+h2,#para1{
+	font-weight:lighter;
+}
+
+#readmore,h1,h2,a,span,#para1{
+	color:#fdfffe;
+}
+#gender{
+	border:0px solid #000;
+	width:95%;
+	background-color:#ccc;
+	height:30px;
+}
+
+[placeholder="Your Name"]{
+	border:0px solid #000;
+	width:95%;
+	background-color:#ccc;
+	height:30px;
+}
+
+[placeholder="Email Id"]{
+	width:95%;
+	background-color:#ccc;
+	height:30px;
+	border:0px solid #000;
+}
+
+[placeholder="Contact Number"]{
+	width:95%;
+	background-color:#ccc;
+	height:30px;
+	border:0px solid #000;
+}
+
+
+
+#dots{
+	border:4px dashed #fff; 
+	width:20px;
+}
