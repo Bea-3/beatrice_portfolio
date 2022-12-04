@@ -15,14 +15,37 @@
 		<link rel="icon" href="images/favicon.ico">
 		
 		<style type="text/css">
-		
-		
+		#intro{
+			border:2px solid red;
+			min-height:300px;
+			width:40%;
+		}
+		#about{
+			border:2px solid red;
+			min-height:400px;
+		}
+		#skills{
+			border:2px solid red;
+		}
+		#portfolio{
+			border:2px solid red;
+		}
+		#footer{
+			border:2px solid red;
+			min-height:300px;
+		}
+		#wrapper{
+			background-color:#0e273c;
+		}
+		p,h2,h3,h5{
+			color:white;
+		}
 		</style>
 		
 	</head>
 	<body>
-		<div class="container-fluid">
-			<div class="row" style="background: linear-gradient(75deg, rgb(191, 174, 72) 5%, rgb(101, 131, 156) 100%);">
+		<div class="container-fluid" id="wrapper">
+			<div class="row">
 				<div class="col">
 				<!-- content row -->
 					<div class="row">
@@ -53,26 +76,25 @@
 						</nav>
 					
 					</div>
-					<div class="col-6">
+					<div class="col-6" id="intro">
 						<h2>Beatrice </h2>
 						<h5> Hello there, my name is Beatrice Pepple :)</h5>
 						<p>I'm a software enginner based in Lagos, Nigeria. I like to build things for the web that create a wonderful user experience
 						accessible and aesthetically appealing.</p>			
 					</div>
-				</div>
-				
+				</div>	
 			</div>
 			
-			<div class="row " style="background: linear-gradient(75deg, rgb(255, 255, 255) 21%, rgb(101, 142, 156) 100%);">
+			<div class="row " >
 				
-				<div class="col-12">
+				<div class="col-12" id="about">
 					<div><h2>About Beatrice</h2></div>
-					<div>Image</div>
-					<div>Write up with negative margin</div>	
+					<div><p>Image</p></div>
+					<div><p>Write up with negative margin</p></div>	
 						
 				</div>
 				
-				<div class="col-12 d-flex" style="flex-wrap:wrap; justify-content:space-around">
+				<div class="col-12 d-flex" id="skills" style="flex-wrap:wrap; justify-content:space-around">
 					<div style="width:100%; text-align:center;"><h2>Skills and Tools</h2>
 						<p>These are handy items that help me create fun stuff on the web.</p>
 					</div>
@@ -171,12 +193,12 @@
 			</div>
 			
 			<div class="row">
-				<div class="col d-flex" style="flex-wrap:wrap;"> Portfolio
+				<div class="col d-flex" style="flex-wrap:wrap;" id="portfolio">
 					<div style="width:100%; text-align:center;"><h2>Some Things I've Created</h2>
 					</div>
 					
 					
-					<div class="col-6 offset-1" style="border:1px solid red">
+					<div class="col-6 offset-1" style="border:1px solid red" id="mint">
 						<img src="images/mintbox_page.PNG" style="width:100%" alt="photo of mintbox homepage"  >
 						
 					</div>
@@ -204,8 +226,8 @@
 				
 			</div>
 			
-			<div class="row" style="background: linear-gradient(75deg, rgb(77, 83, 130) 21%, rgb(101, 142, 156) 100%);">
-				<div class="row"> Footer 
+			<div class="row">
+				<div class="row" id="footer"> Footer 
 					
 				</div>
 			</div>
