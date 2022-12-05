@@ -23,7 +23,6 @@
 		
 		#about{
 			border:0px solid red;
-			min-height:200px;
 		}
 		#skills{
 			border:0px solid red;
@@ -33,10 +32,10 @@
 			border:0px solid red;
 		}
 		#footer{
-			border:2px solid red;
+			border:0px solid red;
 			text-align:center;
 		}
-		#wrapper{
+		#wrapper,body{
 			background-color:#0e273c;
 		}
 		h3{
@@ -65,7 +64,7 @@
 			background-color:#23CE6B;
 		}
 		#bar{
-			height:12px;
+			min-height:12px;
 		}
 		#academy{
 			border:0px solid red;
@@ -106,13 +105,13 @@
 		}
 		#profilepic{
 			border:2px solid #064C74;
-			height:250px;
-			width:250px;
+			border-radius:10px;
+			min-height:250px;
 			background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/beaphoto.jpg');
 			background-size:cover;
 			background-repeat:no-repeat;
 			background-position:center;	
-			margin:30px;
+			margin:auto;
 		}
 		#profilepic:hover{
 			background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('images/beaphoto.jpg');
@@ -137,6 +136,7 @@
 		#intro p a:hover{
 			text-decoration:underline;
 		}
+		
 		</style>
 		
 	</head>
@@ -176,10 +176,10 @@
 						</nav>
 					
 					</div>
-					<div class="col-10 offset-md-1 mt-5" id="intro">
-						<h2 style="font-size:60px; margin:30px 0px;">Beatrice </h2>
-						<h5 style="font-size:30px; margin-bottom:30px"> Hello there, my name is Beatrice Pepple :)</h5>
-						<p style="margin-top:20px">I'm a software enginner based in Lagos, Nigeria. I like to build things for the web that create a wonderful user experience, is
+					<div class="col-md-10 offset-md-1 mt-5" id="intro">
+						<h2 class="col-md" style="font-size:3.75em; margin:30px 0px;">Beatrice </h2>
+						<h5 style="font-size:1.875em; margin-bottom:30px"> Hello there, my name is Beatrice Pepple :)</h5>
+						<p style="margin-top:1.25em">I'm a software enginner based in Lagos, Nigeria. I like to build things for the web that create a wonderful user experience, is
 						accessible and aesthetically appealing. </p>
 							
 							<p>Check out my <a href="#works">work</a> to see what i've been up to lately.</p>
@@ -189,10 +189,10 @@
 			
 			<div class="row " >
 				
-				<div class="col-10 offset-md-1 d-flex"  style="flex-wrap:wrap;" id="about">
+				<div class="col-md-10 offset-md-1 d-flex"  style="flex-wrap:wrap;" id="about">
 					<div style="width:100%"><h2>About Beatrice</h2></div>
-					<div class="col-4" id="profilepic"></div>
-					<div class="col-7" id="writeup">
+					<div class="col-md-4" id="profilepic"></div>
+					<div class="col-md-7" id="writeup">
 						<p>
 							I began my journey in the field of software development in 2022 and i've never looked back. 
 							It has been an exhilirating yet frustrating venture but, the future looks very bright. I actively enjoy combining technology to
@@ -201,16 +201,17 @@
 							
 							I look forward to working with people from diverse environmentsand experiences so that we can create amazing services for everyone. Feel free to look
 							around this website and view some of my work. And, if you're feeling chatty, <span><i><a href="#contactme">hit me up!</a></i></span>
-						</p></div>	
+						</p>
+					</div>	
 						
 				</div>
 				
-				<div class="col-10 offset-md-1 mt-5">
+				<div class="col-md-10 offset-md-1 mt-5">
 					<div style="width:100%; margin:0px;"><h2 id="tools">Skills and Tools</h2>
 						<p>These are handy items that help me create fun stuff on the web including this website.</p>
 					</div>
 				</div>
-				<div class="col-9 offset-md-1 d-flex mx-auto mt-0" id="skills" style="flex-wrap:wrap;">
+				<div class="col-md-9 offset-md-1 d-flex mx-auto mt-0" id="skills" style="flex-wrap:wrap;">
 					
 					<!-- Skill cards with progress bar-->
 					<div class="card m-3" style="width: 12rem;">
@@ -310,7 +311,7 @@
 					<div style="width:100%;" class="col-10 offset-md-1 mt-5"><h2 id="works">Some Things I've Created</h2>
 					</div>
 					
-						<div class="col-md-5 offset-md-2 mt-5" id="mint"> </div>
+						<div class="col-md-5 offset-md-2 mt-5 d-none d-md-block" id="mint"> </div>
 						<div class="col-md-3 mt-5">
 							<div style="text-align:end; margin-top:35px;"><h6>Solo Project</h6>
 							<h3 style="color:#a167a5">Mint Box</h3>
@@ -357,13 +358,13 @@
 							</p>
 						
 						</div>
-						<div class="col-md-5 mt-5 ms-2" id="academy">
+						<div class="col-md-5 mt-5 ms-2 d-none d-md-block" id="academy">
 						</div>
 				</div>
 			</div>		
 			
 			<div class="row mt-5">
-				<div class="col-10 offset-md-1"> 
+				<div class="col-md-10 offset-md-1"> 
 						<h3>Other Projects</h3>
 						
 					<div class="row row-cols-1 row-cols-md-3 g-4">
@@ -422,7 +423,7 @@
 			</div>
 				
 			<div class="row mt-5">
-				<div class="col-5 mx-auto"> 
+				<div class="col-md-5 mx-auto"> 
 						<h2 style="text-align:center" id="contactme">Get In Touch</h2>
 						<p>Want to collaborate? Have a question or proposal? Please reach out. I would love to chat!</p>
 						
@@ -450,7 +451,7 @@
 					</span></p>
 				</div>
 						
-				<div class="col-5">
+				<div class="col-md-5">
 					<h3>Feeling social? Find me here</h3>
 					<div  id="social">
 							<a href="" target="_blank">
@@ -474,7 +475,16 @@
 				
 			
 			</div>
-			
+			<div class="row">
+				<div class="col" id="boxparent">
+					<div class="box">
+						<a href="" target="_blank"><i class="fa-brands fa-github fa-2x "></i></a><br>
+						<a href="" target="_blank"><i class="fa-brands fa-twitter fa-2x" ></i></a><br>
+						<a href="" target="_blank"><span class="fa-brands fa-instagram fa-2x" ></span></a><br>
+						<a href="" target="_blank"><i class="fa-brands fa-linkedin-in fa-2x"></i></a><br>
+			</div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-12" id="footer">
 					<p>&copy; 2022 Designed and Developed by Beatrice Pepple </p>
