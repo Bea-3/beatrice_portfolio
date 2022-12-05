@@ -16,16 +16,18 @@
 		
 		<style type="text/css">
 		#intro{
-			border:2px solid red;
+			border:0px solid red;
 			min-height:300px;
-			width:40%;
+			width:60%;
 		}
+		
 		#about{
-			border:2px solid red;
+			border:0px solid red;
 			min-height:200px;
 		}
 		#skills{
 			border:0px solid red;
+			
 		}
 		#portfolio{
 			border:0px solid red;
@@ -109,17 +111,32 @@
 			background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/beaphoto.jpg');
 			background-size:cover;
 			background-repeat:no-repeat;
-			background-position:center;
-			border-radius:10px;
-			
+			background-position:center;	
+			margin:30px;
 		}
 		#profilepic:hover{
 			background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('images/beaphoto.jpg');
 		}
 		#writeup{
-			border:1px solid red;
+			border:0px solid red;
+			margin-top:30px;
 		}
-		
+		#writeup span i a{
+			text-decoration:none;
+			color:#a167a5;
+		}
+		#writeup span i a:hover{
+			text-decoration:underline;
+			color:#fff;
+			background-color:#a167a5;
+		}
+		#intro p a{
+			text-decoration:none;
+			color:#a167a5;
+		}
+		#intro p a:hover{
+			text-decoration:underline;
+		}
 		</style>
 		
 	</head>
@@ -129,7 +146,7 @@
 				<div class="col">
 				<!-- content row -->
 					<div class="row">
-						<nav class="navbar navbar-expand-lg" >
+						<nav class="navbar navbar-expand-lg mb-5" >
 							<div class="container-fluid">
 							<a class="navbar-brand" href="#">
 								<img src="images/logobp.gif" width="15%" alt="logo"> 
@@ -159,30 +176,44 @@
 						</nav>
 					
 					</div>
-					<div class="col-6" id="intro">
-						<h2>Beatrice </h2>
-						<h5> Hello there, my name is Beatrice Pepple :)</h5>
-						<p>I'm a software enginner based in Lagos, Nigeria. I like to build things for the web that create a wonderful user experience
-						accessible and aesthetically appealing.</p>			
+					<div class="col-10 offset-md-1 mt-5" id="intro">
+						<h2 style="font-size:60px; margin:30px 0px;">Beatrice </h2>
+						<h5 style="font-size:30px; margin-bottom:30px"> Hello there, my name is Beatrice Pepple :)</h5>
+						<p style="margin-top:20px">I'm a software enginner based in Lagos, Nigeria. I like to build things for the web that create a wonderful user experience, is
+						accessible and aesthetically appealing. </p>
+							
+							<p>Check out my <a href="#works">work</a> to see what i've been up to lately.</p>
 					</div>
 				</div>	
 			</div>
 			
 			<div class="row " >
 				
-				<div class="col-12 d-flex"  style="flex-wrap:wrap; justify-content:space-around" id="about">
-					<div style="width:100%" ><h2>About Beatrice</h2></div>
+				<div class="col-10 offset-md-1 d-flex"  style="flex-wrap:wrap;" id="about">
+					<div style="width:100%"><h2>About Beatrice</h2></div>
 					<div class="col-4" id="profilepic"></div>
-					<div class="col-6" id="writeup"><p>Write up with negative margin</p></div>	
+					<div class="col-7" id="writeup">
+						<p>
+							I began my journey in the field of software development in 2022 and i've never looked back. 
+							It has been an exhilirating yet frustrating venture but, the future looks very bright. I actively enjoy combining technology to
+							create beautiful, accessble and user-friendly designs to make life more fun.<br><br>	 When i am not creative coding, I spend my time obsessing about 
+							animes, webtoons and skincare. <br><br>
+							
+							I look forward to working with people from diverse environmentsand experiences so that we can create amazing services for everyone. Feel free to look
+							around this website and view some of my work. And, if you're feeling chatty, <span><i><a href="#contactme">hit me up!</a></i></span>
+						</p></div>	
 						
 				</div>
 				
-				<div class="col-12 d-flex" id="skills" style="flex-wrap:wrap; justify-content:space-around">
-					<div style="width:100%; text-align:center;"><h2 id="tools">Skills and Tools</h2>
+				<div class="col-10 offset-md-1 mt-5">
+					<div style="width:100%; margin:0px;"><h2 id="tools">Skills and Tools</h2>
 						<p>These are handy items that help me create fun stuff on the web including this website.</p>
 					</div>
+				</div>
+				<div class="col-9 offset-md-1 d-flex mx-auto mt-0" id="skills" style="flex-wrap:wrap;">
+					
 					<!-- Skill cards with progress bar-->
-					<div class="card m-3" style="width: 15rem;">
+					<div class="card m-3" style="width: 12rem;">
 						<i class="fa-brands fa-html5 fa-4x text-center mt-3 "></i>
 						<div class="card-body">
 						<h5 class="card-title text-center mb-3">HTML5</h5>
@@ -193,7 +224,7 @@
 						</div>
 					</div>
 					
-					<div class="card m-3" style="width: 15rem;">
+					<div class="card m-3" style="width: 12rem;">
 						<i class="fa-brands fa-css3 fa-4x text-center mt-3 "></i>
 						<div class="card-body">
 						<h5 class="card-title text-center mb-3">CSS3</h5>
@@ -204,7 +235,7 @@
 						</div>
 					</div>
 					
-					<div class="card m-3" style="width: 15rem;">
+					<div class="card m-3" style="width: 12rem;">
 						<i class="fa-brands fa-square-js fa-4x text-center mt-3 "></i>
 						<div class="card-body">
 						<h5 class="card-title text-center mb-3">JavaScript</h5>
@@ -215,7 +246,7 @@
 						</div>
 					</div>
 					
-					<div class="card m-3" style="width: 15rem;">
+					<div class="card m-3" style="width: 12rem;">
 						<i class="fa-brands fa-python fa-4x text-center mt-3 "></i>
 						<div class="card-body">
 						<h5 class="card-title text-center mb-3">Phyton</h5>
@@ -226,7 +257,7 @@
 						</div>
 					</div>
 					
-					<div class="card m-3" style="width: 15rem;">
+					<div class="card m-3" style="width: 12rem;">
 						<i class="fa-brands fa-react fa-4x text-center mt-3 "></i>
 						<div class="card-body">
 						<h5 class="card-title text-center mb-3">React</h5>
@@ -237,7 +268,7 @@
 						</div>
 					</div>
 					
-					<div class="card m-3" style="width: 15rem;">
+					<div class="card m-3" style="width: 12rem;">
 						<i class="fa-brands fa-git-alt fa-4x text-center mt-3 "></i>
 						<div class="card-body">
 						<h5 class="card-title text-center mb-3">Git</h5>
@@ -248,7 +279,7 @@
 						</div>
 					</div>
 					
-					<div class="card m-3" style="width: 15rem;">
+					<div class="card m-3" style="width: 12rem;">
 						<i class="fa-brands fa-github fa-4x text-center mt-3 "></i>
 						<div class="card-body">
 						<h5 class="card-title text-center mb-3">GitHub</h5>
@@ -259,7 +290,7 @@
 						</div>
 					</div>
 					
-					<div class="card m-3" style="width: 15rem;">
+					<div class="card m-3" style="width: 12rem;">
 						<i class="fa-brands fa-bootstrap fa-4x text-center mt-3 "></i>
 						<div class="card-body">
 						<h5 class="card-title text-center mb-3">Bootstrap</h5>
@@ -274,17 +305,17 @@
 				
 			</div>
 			
-			<div class="row">
+			<div class="row mt-5">
 				<div class="col d-flex mx-auto" style="flex-wrap:wrap;" id="portfolio">
-					<div style="width:100%; text-align:center;"><h2 id="works">Some Things I've Created</h2>
+					<div style="width:100%;" class="col-10 offset-md-1 mt-5"><h2 id="works">Some Things I've Created</h2>
 					</div>
 					
-						<div class="col-md-5 offset-md-2" id="mint"> </div>
-						<div class="col-md-3">
+						<div class="col-md-5 offset-md-2 mt-5" id="mint"> </div>
+						<div class="col-md-3 mt-5">
 							<div style="text-align:end; margin-top:35px;"><h6>Solo Project</h6>
 							<h3 style="color:#a167a5">Mint Box</h3>
 							</div>
-						<article style="height:80px; background-color:#064C74; border:0px solid blue; border-radius:5px; margin-top:20px; margin-left:-100px; ">
+						<article style="height:100px; background-color:#064C74; border:0px solid blue; border-radius:5px; margin-top:20px; margin-left:10px; ">
 							<p style="margin-top:10px; color:#e8d7f1;">Mint Box is an application that helps you save, invest and learn more about building wealth. 
 							This is an experimental solo project.</p>
 						</article>
@@ -306,11 +337,11 @@
 			<div class="row mt-5">
 				<div class="col d-flex mx-auto" style="flex-wrap:wrap;" id="portfolio">
 										
-						<div class="col-md-3 offset-md-2" > 
+						<div class="col-md-3 offset-md-2 mt-5" > 
 							<div style="margin-top:35px;"><h6>Solo Project</h6>
 							<h3 style="color:#a167a5">Sapphire Academy</h3>
 							</div>
-						<article style="height:80px; background-color:#064C74; border:0px solid blue; border-radius:5px; margin-top:20px;">
+						<article style="height:90px; background-color:#064C74; border:0px solid blue; border-radius:5px; margin-top:20px;">
 							<p style="margin-top:10px; color:#e8d7f1;">SA is a one-stop for kindergaten uptill senior secondary education.</p>
 						</article>
 							<p style="color:#e8d7f1;">Created with:
@@ -326,13 +357,13 @@
 							</p>
 						
 						</div>
-						<div class="col-md-5" id="academy">
+						<div class="col-md-5 mt-5 ms-2" id="academy">
 						</div>
 				</div>
 			</div>		
 			
 			<div class="row mt-5">
-				<div class="col"> 
+				<div class="col-10 offset-md-1"> 
 						<h3>Other Projects</h3>
 						
 					<div class="row row-cols-1 row-cols-md-3 g-4">
