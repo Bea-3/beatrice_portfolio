@@ -275,9 +275,43 @@ i:hover{
         margin:0;
     }
 } */
-/* @media (min-width:578px){
-    
-} */
+@media (min-width:578px) and (max-width:768px){
+    #profilepic{
+        width:100%; 
+    }
+    #dnd-gallery{
+        margin: auto;
+        width:100%;
+        min-height:300px;
+    }
+    #dnd-gallery:hover{
+        min-height:300px;
+    }
+    #moviebox-img{
+        margin: auto;
+        width:100%;
+        min-height:300px;
+    }
+    #moviebox-img:hover{
+        min-height:300px;
+    }
+    #mint{
+        margin: auto;
+        width:100%;
+        min-height:300px;
+    }
+    #mint:hover{
+        min-height:300px;
+    }
+    #academy{
+        margin: auto;
+        width:100%;
+        min-height:300px;
+    }
+    #academy:hover{
+        min-height:300px;
+    }
+}
 @media (min-width: 1200px){
     #wrapper,body{
         width:100%;
