@@ -1,0 +1,289 @@
+
+#intro{
+    border:0px solid red;
+    min-height:300px;
+    width:60%;
+}
+
+#about{
+    border:0px solid red;
+}
+#skills{
+    border:0px solid red;
+    justify-content: space-evenly;
+    padding:0;
+    gap:20px;
+}
+.card{
+    margin:10px;
+}
+#portfolio{
+    border:0px solid red;
+}
+#footer{
+    border:0px solid red;
+    text-align:center;
+}
+#wrapper,body{
+    background-color:#0e273c;
+    max-width: 1200px;
+    margin: auto;
+}
+h3{
+    color:#a167a5;
+}
+#dnd-gallery{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/dndgallery.png');
+    background-size: 100% 80%;
+    background-repeat:no-repeat;
+    min-height:150px;
+}
+#dnd-gallery:hover{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/dndgallery.png');
+    min-height:150px;
+}
+#moviebox-img{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/moviebox.png');
+    background-size: 100% 80%;
+    background-repeat:no-repeat;
+    min-height:150px;
+}
+#moviebox-img:hover{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/moviebox.png');
+}
+#mint{
+    border:0px solid red;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/mintbox_page.PNG');
+    background-size: 100% 80%;
+    background-repeat:no-repeat;
+    min-height:150px;
+}
+#mint:hover{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/mintbox_page.PNG');
+}
+article{
+    min-height: 70px;
+    background-color: #064c74;
+    border: 0px solid blue;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+article p{
+    margin-top: 10px;
+    padding: 5px; 
+    width: 100%;
+}
+.created-with{
+    color:#e8d7f1;
+    padding:10px;
+}
+p,h5,i,h6{
+    color:#e8d7f1;
+}
+.card{
+    background-color:#064C74;
+}
+h2{
+    font-family:'Roboto Mono', monospace;
+    color:#a167a5;
+}
+.progress-bar{
+    background-color:#23CE6B;
+}
+#bar{
+    min-height:12px;
+}
+#academy{
+    border:0px solid red;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/sa.PNG');
+    background-size: 100% 80%;
+    background-repeat:no-repeat;
+    min-height:150px;
+}
+#academy:hover{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/sa.PNG');
+}
+#send{
+    background-color:#23CE6B;
+    color:white;
+}
+#emailme,#sendhire{
+    background-color:#a167a5;
+    color:white;
+}
+h5 span,#emailmelabel,#hireform{
+    color:#0e273c;
+}
+#social a{
+    text-decoration:none;
+    color:#e8d7f1;
+    margin:5px 20px;
+}
+.navbar{
+    padding:10px;
+    width: 100%;
+}
+#navbaritems ul li a{
+    text-decoration:none;
+    color:#e8d7f1;
+    border:1px solid #064C74;
+    margin:10px;
+    border-radius:10px;
+    background-color:#064C74;
+    font-family:'Roboto Mono', monospace;
+}
+#navbaritems ul li a:hover{
+    background-color:#4a306d;
+}
+#profilepic{
+    border:2px solid #064C74;
+    border-radius:10px;
+    min-height:250px;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/beaphoto.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;	
+    margin:auto;
+}
+#profilepic:hover{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/beaphoto.jpg');
+}
+#writeup{
+    border:0px solid red;
+    margin-top:30px;
+}
+#writeup span i a{
+    text-decoration:none;
+    color:#a167a5;
+}
+#writeup span i a:hover{
+    text-decoration:underline;
+    color:#fff;
+    background-color:#a167a5;
+}
+#intro p a{
+    text-decoration:none;
+    color:#a167a5;
+}
+#intro p a:hover{
+    text-decoration:underline;
+}
+#boxparent{
+    position:relative;
+}
+.box1{
+    position:fixed;
+    bottom:20px;
+    left:25px;
+}
+.box1 i:hover{
+    color:#4a306d;
+}
+.box2{
+    position:fixed;
+    bottom:20px;
+    right:25px;
+}
+a{
+    text-decoration:none; 
+    color:#e8d7f1;
+}
+.box2 a:hover{
+    color:#4a306d;
+}
+i:hover{
+    color:#4a306d;
+}
+.card i:hover{
+    color:#e8d7f1;
+}
+@media all and (max-width:576px){
+    #profilepic{
+        border:2px solid #064C74;
+        border-radius:10px;
+        width:100%;
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/beaphoto.jpg');
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;	
+        margin:auto;
+    }
+    #profilepic:hover{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/beaphoto.jpg');
+    }
+    #intro{
+        width:100%;
+    }
+    #logo{
+        width:30%;
+    }
+    .box1{
+        display:none;
+    }
+    .box2{
+        position:fixed;
+        bottom:0px;
+        right:0px;
+    }
+    /* works */
+    #dnd-gallery{
+        width:100%;
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/dndgallery.png');
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        min-height:150px;
+    }
+    #dnd-gallery:hover{
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/dndgallery.png');
+        min-height:150px;
+    }
+    #moviebox-img{
+        width:100%;
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/moviebox.png');
+        background-size: 100% 80%;
+        background-repeat:no-repeat;
+        min-height:150px;
+    }
+    #moviebox-img:hover{
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/moviebox.png');
+    }
+    #mint{
+        width:100%;
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/mintbox_page.PNG');
+        background-size: 100% 80%;
+        background-repeat:no-repeat;
+        min-height:150px;
+    }
+    #mint:hover{
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/mintbox_page.PNG');
+    }
+    #academy{
+        width:100%;
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/sa.PNG');
+        background-size: 100% 80%;
+        background-repeat:no-repeat;
+        min-height:150px;
+    }
+    #academy:hover{
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/sa.PNG');
+    }
+}
+/* @media (min-width:578px) and (max-width:768px){
+    .workwrap{
+        padding:0;
+        margin:0;
+    }
+} */
+/* @media (min-width:578px){
+    
+} */
+@media (min-width: 1200px){
+    #wrapper,body{
+        width:100%;
+        margin:auto;
+    }
+}
+
+
+
